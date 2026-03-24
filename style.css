@@ -230,6 +230,18 @@ a {
   text-decoration: none;
 }
 
+.simple-list {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.simple-list p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.75;
+  color: var(--muted);
+}
+
 .reveal {
   opacity: 0;
   transform: translateY(18px);
